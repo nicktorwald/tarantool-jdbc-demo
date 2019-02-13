@@ -1,0 +1,16 @@
+plugins {
+    id 'java'
+}
+
+repositories {
+    jcenter();
+}
+
+dependencies {
+    implementation 'org.springframework:spring-context:5.1.4.RELEASE'
+    implementation 'org.springframework:spring-jdbc:5.1.4.RELEASE'
+    
+    implementation 'org.tarantool:connector:1.9.0'
+    
+    testImplementation 'junit:junit:4.12'
+}
